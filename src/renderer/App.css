@@ -1,0 +1,14 @@
+::-webkit-scrollbar {
+    width: 0;  /* скрыть ползунок */
+    height: 0;
+    background: transparent; /* убрать фон */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}

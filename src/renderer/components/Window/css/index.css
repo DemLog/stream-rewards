@@ -1,0 +1,19 @@
+.closeButtonWindow:hover {
+    background-color: #D3232F !important;
+}
+.closeButtonWindow:active {
+    background-color: #FA5255 !important;
+}
+.dragWindowArea {
+    -webkit-app-region: drag;
+}
+
+header {
+  user-select: none;
+}
+
+#logo_header {
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+}
